@@ -1,4 +1,4 @@
 .qodo
-data/
+data/*
 ml_cache/
 silverdata/
