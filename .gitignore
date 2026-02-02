@@ -1,5 +1,10 @@
-.qodo
-
+# ignore folders completely
+.qodo/
 ml_cache/
 silverdata/
-.gitignore 
+
+# ignore everything inside data
+data/*
+
+# but keep the folder itself
+!data/.gitkeep
