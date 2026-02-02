@@ -1,4 +1,5 @@
 .qodo
-data/*
+
 ml_cache/
 silverdata/
+.gitignore 
