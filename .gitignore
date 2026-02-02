@@ -2,7 +2,7 @@
 .qodo/
 ml_cache/
 silverdata/
-.gitignore
+
 
 # ignore everything inside data
 data/*
