@@ -14,7 +14,7 @@ files = glob(os.path.join(input_dir, "*.csv.gz.sftp"))
 
 for file_path in files:
     file_name = os.path.basename(file_path)
-    
+
     output_file = file_name.replace(".csv.gz.sftp", ".csv.sftp")
     output_path = os.path.join(output_dir, output_file)
 
@@ -23,3 +23,7 @@ for file_path in files:
             shutil.copyfileobj(f_in, f_out)
 
     print(f"Converted: {file_path} -> {output_path}")
+
+
+
+# Note: The .sftp extension is retained as per the original requirement.
